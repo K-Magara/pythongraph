@@ -18,9 +18,9 @@ plt.axvline(0, c='lightgray')
 plt.tick_params(length=0)
 plt.plot(x*1.5, np.sin(x)*1.25, c='k', ls='-')
 
-ax.arrow(-1.8, 0.5,  1.8, -0.5, head_width=0.08, length_includes_head=True, color='gray', clip_on=False)
-ax.arrow(-3,   0.5, -1.8, -0.5, head_width=0.08, length_includes_head=True, color='gray', clip_on=False)
-ax.text(-3, 0.55, 'ゼロクロス', fontsize=10)
+ax.arrow(-1.8, 0.6,   1.8, -0.6, head_width=0.08, length_includes_head=True, color='gray', clip_on=False)
+ax.arrow(-3,   0.6, -1.75, -0.6, head_width=0.08, length_includes_head=True, color='gray', clip_on=False)
+ax.text(-3.1, 0.7, 'ゼロクロス', fontsize=10, backgroundcolor='w')
 
 x15 = np.pi*1.5
 ax.arrow( x15, 0, 0, 2.2, color='gray', clip_on=False)
